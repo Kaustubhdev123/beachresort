@@ -1,0 +1,211 @@
+.home-container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .book-now {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-image: url('https://media.istockphoto.com/id/1453462931/photo/maldives-hotel-beach-resort-on-tropical-island-with-aerial-drone-view.webp?b=1&s=170667a&w=0&k=20&c=u-zNzEvxClpUbq92jGiKxWDhF2KB30Sev8jMUG3SiG0='); /* Add your background image path */
+    background-size: cover;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .intro-text {
+    width: 45%;
+  }
+  
+  .intro-text h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .intro-images {
+    width: 45%;
+    height: 300px;
+    background-color: #ccc;
+    /* Implement a carousel here */
+  }
+  
+  .poster {
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/id/1453462931/photo/maldives-hotel-beach-resort-on-tropical-island-with-aerial-drone-view.webp?b=1&s=170667a&w=0&k=20&c=u-zNzEvxClpUbq92jGiKxWDhF2KB30Sev8jMUG3SiG0='); /* Add your background image path */
+    background-size: cover;
+    padding: 40px;
+    margin: 20px 0;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .poster h2 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .poster p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .pillars {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .pillar {
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .pillar:hover {
+    transform: translateY(-10px);
+  }
+  
+  .pillar h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pillar p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .pillar a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .pillar img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .poster-art-homes {
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/id/1453462931/photo/maldives-hotel-beach-resort-on-tropical-island-with-aerial-drone-view.webp?b=1&s=170667a&w=0&k=20&c=u-zNzEvxClpUbq92jGiKxWDhF2KB30Sev8jMUG3SiG0='); /* Add your background image path */
+    background-size: cover;
+    padding: 40px;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .poster-art-homes h2 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .sample-rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .room {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .room:hover {
+    transform: translateY(-10px);
+  }
+  
+  .room img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .room h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .featured-in {
+    margin: 40px 0;
+  }
+  
+  .featured-in h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .news-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .news-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .news-item h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .news-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .news-item img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+  }
+  
