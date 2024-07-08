@@ -1,0 +1,91 @@
+:root {
+    --font-heading: 'Arial, sans-serif';
+    --font-body: 'Arial, sans-serif';
+    --border: 200, 200, 200;
+    --input: 230, 230, 230;
+    --ring: 0, 0, 0;
+    --background: 255, 255, 255;
+    --foreground: 0, 0, 0;
+    --primary: 193, 45, 85;
+    --primary-foreground: 255, 255, 255;
+    --secondary: 102, 102, 102;
+    --secondary-foreground: 255, 255, 255;
+    --destructive: 255, 0, 0;
+    --destructive-foreground: 255, 255, 255;
+    --muted: 153, 153, 153;
+    --muted-foreground: 255, 255, 255;
+    --accent: 0, 123, 255;
+    --accent-foreground: 255, 255, 255;
+    --popover: 255, 255, 255;
+    --popover-foreground: 0, 0, 0;
+    --card: 240, 240, 240;
+    --card-foreground: 0, 0, 0;
+    --radius: 8px;
+  }
+  
+  body {
+    font-family: var(--font-body);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .sub-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(var(--primary));
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .grid {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .pillar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .pillar-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .description {
+    text-align: center;
+    color: rgb(var(--muted));
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: rgb(var(--primary));
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  

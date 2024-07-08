@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Hero from "../components/Hero";
-import Banner from "../components/Banner";
-import Services from "../components/Services";
-import FeaturedRooms from "../components/FeaturedRooms";
 
+
+import ThreePillars from "../components/ThreePillars";
+import FeaturedIn from "../components/FeaturedIn";
+import Section from "../components/Section";
+import Slider from "../components/Slider";
 function Home() {
   useEffect(() => {
     document.title = "Beach Resort || Home";
@@ -12,18 +13,10 @@ function Home() {
 
   return (
     <React.Fragment>
-      <Hero>
-        <Banner
-          title="Luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
-        >
-          <Link to="/rooms" className="btn-primary">
-            our rooms
-          </Link>
-        </Banner>
-      </Hero>
-      <Services />
-      <FeaturedRooms />
+      <Slider></Slider>
+      <ThreePillars></ThreePillars>
+      <Section></Section>
+      <FeaturedIn></FeaturedIn>
     </React.Fragment>
   );
 }

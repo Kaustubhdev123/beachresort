@@ -18,6 +18,7 @@ import HomePage from "./components/HomePage";
 // import Lonavala from "./components/BookNow/Lonavala";
 // import Vishakapatnam from "./components/BookNow/Vishakapatnam";
 // import NotFound from "./components/NotFound";
+import Home from "./pages/Home";
 import NavigationBar from "./components/NavigationBar";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <div>
         <NavigationBar />
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={Home} />
           {/* <Route path="/who-we-are" component={WhoWeAre} />
           <Route path="/featured-in" component={FeaturedIn} />
           <Route path="/hotel-le-sutra" component={HotelLeSutra} />

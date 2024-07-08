@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./css/HomePage.css";
+import ThreePillars from "./ThreePillars";
 
 const sampleRooms = [
   {
@@ -98,7 +99,7 @@ const HomePage = () => {
   return (
     <div className="home-container">
       <button className="book-now">Book Now</button>
-      
+      <ThreePillars></ThreePillars>
       <section className="intro">
         <div className="intro-text">
           <h1>Welcome to a Canvas of Creativity</h1>
